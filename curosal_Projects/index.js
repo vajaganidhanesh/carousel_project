@@ -1,6 +1,7 @@
 let currentSlide = 1;
 let totalSlides = 4;
 
+// slide function for next picture 
 function next(click)
 {
     document.getElementById("slider").style.transition=".7s";
@@ -22,6 +23,7 @@ function next(click)
 
 let slide = setInterval(function(){next(false)},3000);
 
+// slide function for previous function
 function prev(click)
 {
     document.getElementById("slider").style.transition=".7s";
@@ -40,6 +42,7 @@ function prev(click)
     }
 }
 
+// slide  function for opening the image
 function openSlide(slideNo)
 {
     let margin = (slideNo)*100;

@@ -14,7 +14,6 @@
 .slider{
     width: 600%;
     height:500px;
-    /* background-color: yellow; */
     display: flex;
     position: absolute;
     margin-left: -100%;
@@ -26,6 +25,8 @@
     background-size: cover;
 
 }
+
+/* css for images */
 
 .img:nth-child(1)
 {
@@ -84,7 +85,6 @@
 .indicators{
     height: 50px;
     width: 100%;
-    /* background-color: ; */
     position: absolute;
     bottom: 0;
     display: flex;
